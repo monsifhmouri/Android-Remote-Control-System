@@ -80,7 +80,7 @@ MØNSTR-M1ND/
 1 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/monstr-m1nd.git
+git clone https://github.com/monsifhmouri/monstr-m1nd.git
 cd monstr-m1nd
 ```
 
