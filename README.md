@@ -26,12 +26,12 @@ A professional proof-of-concept system that allows controlling and viewing an An
 
 ### System
 
-* Windows / Linux
-* Python **3.9+**
-* Android phone with:
+ Windows / Linux
+ Python **3.9+**
+ Android phone with:
 
-  * Chrome / Edge browser
-  * Screen sharing support
+   Chrome / Edge browser
+   Screen sharing support
 
 ---
 
@@ -77,20 +77,20 @@ MØNSTR-M1ND/
 
 ## How to Run
 
-1. Clone the repository:
+1 Clone the repository:
 
 ```bash
 git clone https://github.com/yourusername/monstr-m1nd.git
 cd monstr-m1nd
 ```
 
-2. Run the server:
+2 Run the server:
 
 ```bash
 python monstr_m1nd.py
 ```
 
-3. Open in your desktop browser:
+3 Open in your desktop browser:
 
 ```
 http://localhost:5000
@@ -100,46 +100,45 @@ http://localhost:5000
 
 ## How to Use
 
-1. Open the main interface on your computer
-2. Click **Generate QR Code**
-3. Scan the QR code with your Android phone
-4. Open the link in the phone browser
-5. Grant screen sharing permission
-6. Open **Control Panel** on desktop
-7. Start stream and control the device
+1 Open the main interface on your computer
+2 Click **Generate QR Code**
+3 Scan the QR code with your Android phone
+4 Open the link in the phone browser
+5 Grant screen sharing permission
+6 Open **Control Panel** on desktop
+7 Start stream and control the device
 
 ---
 
 ## Control Notes
 
-* Mouse clicks are mapped proportionally to phone screen
-* Keyboard input is sent as events
-* Control is **logical**, not system-level
-* Some Android actions may not respond due to OS limitations
+ Mouse clicks are mapped proportionally to phone screen
+ Keyboard input is sent as events
+ Control is **logical**, not system-level
+ Some Android actions may not respond due to OS limitations
 
 ---
 
 ## Limitations (Important)
 
-* Browser **cannot inject real touch events** into Android system
-* Full control requires:
+ Browser **cannot inject real touch events** into Android system
+ Full control requires:
 
-  * ADB connection **or**
-  * Android Accessibility Service (not included)
+   ADB connection **or**
+   Android Accessibility Service (not included)
 
 This project intentionally avoids those to stay:
 
-* Python-only on desktop
-* App-free on Android
+ Python-only on desktop
+ App-free on Android
 
 ---
 
 ## Intended Use
 
-* Educational purposes
-* Proof of concept
-* Networking & real-time systems demo
-* Portfolio / research project
+ Proof of concept
+ Networking & real-time systems demo
+ Portfolio / research project
 
 ---
 
@@ -154,5 +153,4 @@ This project intentionally avoids those to stay:
 
 ## License
 
-This project is provided **as-is** for educational and research purposes
 You are responsible for how you use or modify it......................
